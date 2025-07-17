@@ -1,0 +1,58 @@
+
+html 
+{
+    font-size: 20px;
+}
+
+header h1{
+    text-align: center;
+} 
+
+.text{
+    width: 100%;
+    overflow: hidden;
+}
+
+.text h1{
+    animation: slide-left 5s linear infinite alternate;
+}
+
+@keyframes slide-left{
+    from{
+        margin-left: 110%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: -30%;
+        width: 300%;
+    }
+}
+
+nav{
+    text-align: center;
+}
+
+ h3{
+    background-color: aqua;
+ }
+ p{
+    color:rgb(54, 7, 120);
+ }
+
+ ul{
+     color:rgb(92, 86, 154) ;
+ }
+figure{
+    justify-content:center;
+}
+
+figure{
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align:center;
+}
+
+
+ 
